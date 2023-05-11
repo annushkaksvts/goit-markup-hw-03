@@ -63,7 +63,7 @@ body {
 }
 
 .container {
-	width: 1160px;
+	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
@@ -96,6 +96,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--iris-web);
+	margin-right: 76px;
 }
 
 .logosp {
@@ -114,7 +115,11 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
-	column-gap: 40px;
+	gap: 40px;
+}
+
+.menulk{
+	padding: 24px 0;
 }
 
 .menu:hover,
@@ -188,6 +193,7 @@ body {
 	min-width: 169px;
 	height: 56px;
 	border: none;
+	border-bottom: 1px solid #e7e9fc;
 	border-radius: 4px;
 	padding: 16px 32px 16px 32px;
 }
@@ -217,7 +223,7 @@ body {
 .list-spdt {
 	display: flex;
 	align-items: center;
-	column-gap: 24px;
+	gap: 24px;
 }
 
 .hidden {
@@ -266,7 +272,7 @@ body {
 
 .card-wrwd {
 	display: flex;
-	column-gap: 24px;
+	gap: 24px;
 }
 
 .section-portfolio {
