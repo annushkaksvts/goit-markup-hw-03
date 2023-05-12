@@ -98,7 +98,8 @@ body {
 	text-transform: uppercase;
 	color: var(--iris-web);
 	margin-right: 76px;
-	padding: 24px 0;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .logosp {
@@ -118,7 +119,8 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
 	gap: 40px;
-	padding: 24px 0;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .menu:hover,
@@ -361,6 +363,7 @@ body {
 }
 
 .footerlg {
+	display: inline-block;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -370,7 +373,6 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--iris-web);
-	display: inline-block;
 	margin-bottom: 16px;
 }
 
