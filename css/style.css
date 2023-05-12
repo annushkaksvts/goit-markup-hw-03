@@ -75,8 +75,6 @@ body {
 .header {
 	display: flex;
 	align-items: center;
-	padding-top: 24px;
-	padding-bottom: 24px;
 	border-bottom: 1px solid #e7e9fc;
 }
 
@@ -117,9 +115,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
 	gap: 40px;
-}
-
-.menulk {
 	padding: 24px 0;
 }
 
@@ -194,7 +189,7 @@ body {
 	background-color: var(--iris-web);
 
 	/* розмітка */
-
+	display: block;
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -296,15 +291,12 @@ body {
 
 .team {
 	background-color: var(--color-text-p);
-}
-
-.team-container {
 	padding: 120px 0;
 }
 
 .team-list {
-	width: 360px;
 	border-radius: 0px 0px 4px 4px;
+	flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-our {
