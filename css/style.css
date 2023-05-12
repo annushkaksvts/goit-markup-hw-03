@@ -195,13 +195,13 @@ body {
 
 	/* розмітка */
 	display: block;
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
 	min-width: 169px;
-	height: 56px;
+	border: none;
 	border-radius: 4px;
 	padding: 16px 32px 16px 32px;
+	height: 56px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .modal-btn:hover,
@@ -364,6 +364,7 @@ body {
 
 .footerlg {
 	display: inline-block;
+	margin-bottom: 16px;
 
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
@@ -374,7 +375,6 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--iris-web);
-	margin-bottom: 16px;
 }
 
 .footer-logosp {
