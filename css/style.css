@@ -365,18 +365,16 @@ body {
 }
 
 .footerlg {
+	display: inline-block;
+	margin-bottom: 16px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--iris-web);
 	/* розмітка */
-	display: inline-block;
-	margin-bottom: 16px;
 }
 
 .footer-logosp {
@@ -384,7 +382,6 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
