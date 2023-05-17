@@ -112,17 +112,18 @@ body {
 /* Body Medium */
 .menu {
 	display: flex;
+	gap: 40px;
+}
+
+.menu-nav {
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 24px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
-	gap: 40px;
-}
-
-.menu-nav {
-	padding-top: 24px;
-	padding-bottom: 24px;
 }
 
 .menu-nav:hover,
